@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+.login{
+    margin: 30px;
+    height: 50vh;
+    width: 40vh;
+    border: 5px solid rgba(47, 73, 207, 0.755);
+    border-radius: 5%;
+}
+
+input{
+    height: 35px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid rgba(19, 157, 181, 0.686);
+    border-radius: 1vh;
+}
