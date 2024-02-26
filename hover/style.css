@@ -4,13 +4,30 @@
 }
 
 .container{
-    height: 40vh;
-    width: 30vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    height: 45vh;
+    width: 45vh;
+    display:block;
+    justify-content: space-around;
+    background-color: #abcdef;
 }
-button{
-    height: 30px;
-    size: 30px;
+.btn{
+    height: 70px;
+    width: 70px;
+    margin: 7px;
+    border-radius: 50%;
+    font-size: x-large;
+
+}
+.btn:hover{
+    background-color: #fedcba;
+    color: red;
+
+}
+#in {
+    background-color: #abcdef;
+    width: 180px;
+    color: blue;
+}
+#in:hover{
+    background-color: red;
 }
