@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background-size: cover;
+    color: aliceblue;
+}
+
+header{
+    text-align: center;
+    border-radius: 2pc;
+}
+
+.box{
+    border: 10px orange;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.pics{
+    width: 25%;
+    aspect-ratio: 1/2;
+    object-fit: cover;
+    border-radius: 2vh;
+}
+.pics:hover{
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 10px 8px 18px orange;
+}
+
+
+figcaption{
+    overflow:scroll;
+}
