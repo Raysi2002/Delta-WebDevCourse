@@ -1,0 +1,67 @@
+*{
+    background-image: url(/Images/matrix.jpeg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    border: 5px solid orange;
+    border-radius: 1em;
+    height: 40vh;
+    width: 30vw;
+    display: block;
+    justify-content:space-around;
+    align-items: center;
+    background-image: url(/Images/Console.jpeg);
+    background-size: cover;
+}
+
+label{
+    text-align: center;
+    font-size:large;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
+label > input{
+    
+    height: 4.5vh;
+    width: 25vh;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    border: 2px solid rgba(107, 140, 18, 0.782);
+    border-radius: 7px;
+    background-color: #13120194;
+    /* margin: 20px; */
+}
+
+header{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+label > input:hover{
+    background-color: #fbabeb;
+    filter: drop-shadow(10px 7px 10px orange);
+}
+
+label > input:active{
+    font-family: fantasy;
+}
+
+label > input:checked{
+    color: #090800cc;
+}
+
+label > input:nth-child(1n){
+    background-color: #09ab75ca;
+}
