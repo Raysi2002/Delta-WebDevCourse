@@ -1,0 +1,11 @@
+#head{
+    font-family:'Courier New', Courier, monospace;
+    color: #1b74e4;
+}
+#login, #signup{
+    background-color: aqua;
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
